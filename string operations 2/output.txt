@@ -1,0 +1,13 @@
+output
+
+Enter string to check palindrome:- nitin
+Entered string is palindrome
+Entered string is palindrome(using reverse string method)
+Enter sentence to check maximum length of word:hello ajay
+Length:  5 Word:  hello
+Enter string to check  particular character count:this is college
+Enter character: i
+Entered character count is:  2
+Enter string to check first appearance of substring: good morning
+Enter substring: good
+good is at index:  0

@@ -1,0 +1,29 @@
+1. Function Definitions:
+Define a function In(element, list1) that checks if an element is in a list.
+Define a function first_appe(string, substring) that finds the index of the first appearance of a substring in a string.
+Define a function revstr(string) that reverses a given string.
+Define a function str_count(str1, char) that counts the occurrences of a character in a string.
+Define a function max_len(splitL) that finds the word with the longest length in a list of words.
+Define a function is_palindrome(str) that checks if a string is a palindrome.
+
+2.Input:
+Get a string from the user to check if it is a palindrome using the is_palindrome function.
+Check if the string is a palindrome and print the result.
+
+3.Palindrome Check (Reverse String Method):
+Check if the string is a palindrome using the reverse string method and print the result.
+
+4.Sentence Processing:
+Get a sentence from the user to find the word with the maximum length.
+Split the sentence into a list of words and find the word with the maximum length using the max_len function.
+Print the length and the word.
+
+5.Character Count:
+Get a string from the user and a character to count.
+Use the str_count function to count the occurrences of the character in the string.
+Print the count.
+
+6. Substring Appearance:
+Get a string and a substring from the user.
+Use the first_appe function to find the index of the first appearance of the substring in the string.
+Print the result.
