@@ -1,0 +1,23 @@
+Algorithm :
+
+Algorithm for Cinemax Movie Theatre Booking System:
+
+1. Define a class `node` to represent a node in the linked list with attributes: `seat`, `id`, `status`, `next`, and `prev`.
+
+2. Define a class `cinemax` to manage the cinema booking operations:
+   a. Initialize a linked list with head, tail, and temp pointers.
+   b. Implement member functions:
+      - `create_list`: Initialize the linked list with 70 seats.
+      - `display`: Display the current seat status of the cinema screen.
+      - `book`: Book a seat by updating its status and storing the user ID.
+      - `cancel`: Cancel a booked seat by checking the user ID.
+      - `avail`: Display the available seats.
+
+3. In the `main` function:
+   a. Create an instance of the `cinemax` class.
+   b. Use a loop to continuously prompt the user for operations.
+   c. Display a menu with options to view seat status, book a seat, check available seats, and cancel a seat.
+   d. Perform the corresponding operation based on the user's choice.
+   e. Ask the user if they want to perform another operation (y/n).
+   f. Exit the program when the user chooses not to continue.
+
