@@ -1,0 +1,28 @@
+Algorithm :
+
+Algorithm for Evaluating Postfix Expression with User Input:
+
+1. Define a function `eval` to perform arithmetic operations.
+   - Takes two operands (`op1` and `op2`) and an operator (`operate`).
+   - Returns the result of the operation.
+
+2. Define a function `getWeight` to assign weights to operators for precedence.
+   - Returns the weight of the operator.
+
+3. Define a function `evalPostfix` to evaluate a postfix expression.
+   - Uses a stack to perform the evaluation.
+   - Iterates through each character in the postfix expression.
+      a. If the character is a digit, push it onto the stack.
+      b. If the character is an operator, pop two operands from the stack, perform the operation, and push the result back onto the stack.
+   - Returns the final result of the expression.
+
+4. In the `main` function:
+   a. Declare a character array `postfix` to store the postfix expression.
+   b. Iterate through each character in the postfix expression.
+      a. If the character is an operand, prompt the user to enter its value.
+   c. Calculate the size of the postfix expression.
+   d. Call `evalPostfix` with the postfix expression and its size to get the result.
+   e. Print the evaluated result.
+
+5. End the program.
+

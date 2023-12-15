@@ -1,0 +1,8 @@
+output :
+
+ Enter value for a = 4
+ Enter value for b = 5
+ Enter value for c = 7
+ Enter value for d = 8
+
+Expression evaluates to 6
