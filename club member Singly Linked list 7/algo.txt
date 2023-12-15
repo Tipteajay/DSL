@@ -1,0 +1,22 @@
+Algorithm :
+
+Algorithm for Managing Student Data Using Linked List:
+
+1. Define a class `node` to represent a node in the linked list.
+   - Include a friend class `list`.
+   - Initialize data members: `prnno`, `name`, and `next` pointer.
+
+2. Define a class `list` to manage the linked list operations.
+   - Include a member function `display` to display the information in the list.
+   - Include member functions for inserting members, president, and secretary.
+   - Include member functions for creating members and deleting members, president, and secretary.
+   - Include member functions for counting nodes and reversing the list.
+   - Include a member function `concatinate` to concatenate two lists.
+
+3. In the `main` function:
+   - Create instances of the `list` class (e.g., `sll1`, `sll2`).
+   - Display a menu for operations
+   - Read user's choice and perform the corresponding operation.
+   - Use a loop to continue operations based on user input.
+   - Exit the program when the user chooses not to continue.
+

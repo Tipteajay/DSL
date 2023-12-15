@@ -1,0 +1,205 @@
+Output :
+
+enter your choice :
+1-create member
+2-display
+3-delete member
+4-no. of nodes
+5-reverse
+6-concatinate1
+
+choose :
+1-member
+2-secretory
+3-president1
+
+enter prn-no : 210
+
+enter name : b
+
+insert more ?y
+
+choose :
+1-member
+2-secretory
+3-president1
+
+enter prn-no : 311
+
+enter name : c
+
+insert more ?y
+
+choose :
+1-member
+2-secretory
+3-president1
+
+enter prn-no : 411
+
+enter name : d
+
+insert more ?y
+
+choose :
+1-member
+2-secretory
+3-president2
+
+enter prn-no : 511
+
+enter name : e
+
+insert more ?y
+
+choose :
+1-member
+2-secretory
+3-president3
+
+enter prn-no : 111
+
+enter name : a
+
+insert more ?n
+
+
+do you want to continue ? y
+
+enter your choice :
+1-create member
+2-display
+3-delete member
+4-no. of nodes
+5-reverse
+6-concatinate2
+
+info is :
+
+111	a
+210	b
+311	c
+411	d
+511	e
+
+do you want to continue ? y
+
+enter your choice :
+1-create member
+2-display
+3-delete member
+4-no. of nodes
+5-reverse
+6-concatinate4
+
+no. of nodes is:
+total no. of nodes is : 5
+
+do you want to continue ? y
+
+enter your choice :
+1-create member
+2-display
+3-delete member
+4-no. of nodes
+5-reverse
+6-concatinate5
+
+reversed is:
+511	e
+411	d
+311	c
+210	b
+111	a
+
+do you want to continue ? y
+
+enter your choice :
+1-create member
+2-display
+3-delete member
+4-no. of nodes
+5-reverse
+6-concatinate6
+
+choose :
+1-member
+2-secretory
+3-president1
+
+enter prn-no : 412
+
+enter name : f
+
+insert more ?y
+
+choose :
+1-member
+2-secretory
+3-president1
+
+enter prn-no : 121
+
+enter name : j
+
+insert more ?n
+
+info is :
+
+111	a
+211	b
+311	c
+411	d
+511	e
+412	f
+121	j
+
+do you want to continue ? y
+
+enter your choice :
+1-create member
+2-display
+3-delete member
+4-no. of nodes
+5-reverse
+6-concatinate3
+
+enter the nodes to be deleted in list :
+choose :
+1-member
+2-Secretary
+3-president1
+
+enter prn no. to delete : 210
+
+deleted
+delete more ?y
+
+choose :
+1-member
+2-Secretary
+3-president3
+
+deleted
+delete more ?n
+
+
+do you want to continue ? y
+
+enter your choice :
+1-create member
+2-display
+3-delete member
+4-no. of nodes
+5-reverse
+6-concatinate2
+
+info is :
+
+311	c
+411	d
+511	e
+412	f
+
+do you want to continue ? n
+  */
