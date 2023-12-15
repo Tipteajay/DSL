@@ -1,0 +1,40 @@
+output :
+
+1.Add at begin 
+2.Add at end 
+3.Delete front 
+4.Delete end
+5.Exit 1
+
+Enter data : 10
+
+10
+1.Add at begin
+2.Add at end
+3.Delete front
+4.Delete end
+5.Exit 2
+
+Enter data : 20
+
+10
+20
+1.Add at begin
+2.Add at end
+3.Delete front
+4.Delete end
+5.Exit 3
+the deleted element is10
+20
+1.Add at begin
+2.Add at end
+3.Delete front
+4.Delete end
+5.Exit 4
+the deleted element is20
+0
+1.Add at begin
+2.Add at end
+3.Delete front
+4.Delete end
+5.Exit 5

@@ -1,0 +1,27 @@
+Algorithm:
+
+Algorithm for Double-Ended Queue (Deque) Implementation:
+
+1. Create a class `dqueue` with private members `q` (an array), `f` (front index), and `r` (rear index).
+   - Initialize `f` and `r` to -1.
+   - Initialize a sentinel value (e.g., `NULL`) in the array element at index `-1`.
+
+2. Implement member functions in the class:
+   - `display()`: Display the elements in the deque.
+   - `insert_end(int data)`: Add an element at the rear of the deque.
+   - `delete_end()`: Remove an element from the rear of the deque.
+   - `delete_front()`: Remove an element from the front of the deque.
+   - `insert_begin(int data)`: Add an element at the front of the deque.
+
+3. In the `main` function:
+   a. Create an instance of the `dqueue` class (`q`).
+   b. Use a do-while loop to present a menu for the user:
+      - Add at the beginning: Prompt the user to enter data and insert it at the front of the deque.
+      - Add at the end: Prompt the user to enter data and insert it at the rear of the deque.
+      - Delete front: Remove and display the element from the front of the deque.
+      - Delete end: Remove and display the element from the rear of the deque.
+      - Exit: End the program.
+   c. Continue the loop until the user chooses to exit.
+
+4. End the program.
+
