@@ -1,0 +1,31 @@
+Algorithm :
+
+Algorithm for Parenthesis Checker using Stack:
+
+1. Define a class `stackexp` to implement a stack for parenthesis checking.
+   a. Initialize data members: `top` and an array `stk` of characters.
+   b. Implement member functions:
+      - `push(char x)`: Push a character onto the stack.
+      - `pop()`: Pop a character from the stack.
+      - `isfull()`: Check if the stack is full.
+      - `isempty()`: Check if the stack is empty.
+
+2. In the `main` function:
+   a. Create an instance of the `stackexp` class (`s1`).
+   b. Read an expression (`exp`) from the user.
+   c. Check if the first character of the expression is a closing parenthesis (')', ']', '}').
+      - If true, print "Invalid Expression" and exit.
+      - If false, proceed to the next steps.
+
+3. Iterate through each character in the expression (`exp`):
+   a. Check the type of the character:
+      - If '(', '[', or '{', push it onto the stack.
+      - If ')', ']', or '}', pop from the stack.
+   b. Increment the index (`i`).
+
+4. After the loop, check if the stack is empty:
+   - If true, print "Expression is well parenthesized."
+   - If false, print "Invalid Expression or not well parenthesized."
+
+5. End the program.
+
