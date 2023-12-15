@@ -1,0 +1,25 @@
+Algorithm :
+
+Algorithm for Job Queue using Class and Structure:
+
+1. Declare a structure `queue` to represent a simple queue with an array of integers (`data`), `front`, and `rear` indices.
+
+2. Define a class `Queue` with a private data member `q` of type `struct queue`.
+   a. Implement member functions:
+      - `isempty()`: Check if the queue is empty.
+      - `isfull()`: Check if the queue is full.
+      - `enqueue(int x)`: Add an element to the queue.
+      - `delqueue()`: Remove an element from the queue.
+      - `display()`: Display the elements in the queue.
+
+3. In the `main` function:
+   a. Create an instance of the `Queue` class (`obj`).
+   b. Use a do-while loop to present a menu for the user:
+      - Insert Job: Prompt the user to enter data and enqueue it if the queue is not full.
+      - Delete Job: Dequeue and display the deleted element if the queue is not empty.
+      - Display: Display the contents of the queue.
+      - Exit: End the program.
+   c. Continue the loop until the user chooses to exit.
+
+4. End the program.
+
