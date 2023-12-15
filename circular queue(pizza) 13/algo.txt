@@ -1,0 +1,27 @@
+Algorithm:
+
+Algorithm for Pizza Parlour Ordering System:
+
+1. Create a class `PizzaParlour` with private members `front`, `rear`, and `orders` array of size `MAX`.
+   - Initialize `front` and `rear` to -1.
+
+2. Implement member functions in the class:
+   a. `addOrder(int id)`: Add an order with a given order ID to the queue.
+   b. `serveOrder()`: Serve the order at the front of the queue.
+   c. `display()`: Display the order IDs in the queue.
+
+3. Create a function `intro()` to display the name of the pizza parlour with a delay.
+
+4. In the `main` function:
+   a. Create an instance of the `PizzaParlour` class (`q`).
+   b. Use a do-while loop to present a menu for the user:
+      - Accept Order: Increment the order ID, add the order to the queue, and display the order ID.
+      - Serve Order: Serve the order at the front of the queue.
+      - Display Orders: Display the order IDs in the queue.
+      - Exit: End the program.
+   c. Continue the loop until the user chooses to exit.
+
+5. Display a thank-you message.
+
+6. End the program.
+
