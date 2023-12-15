@@ -1,0 +1,16 @@
+Algorithm:
+
+1. Initialize Matrices:
+Create two matrices x and y using NumPy arrays.
+
+2. Element-wise Addition:
+Use the numpy.add() function to perform element-wise addition of matrices x and y.
+Print the result.
+
+3. Matrix Multiplication:
+Use the numpy.dot() function to compute the product of matrices x and y.
+Print the result.
+
+4. Transpose of Matrix:
+Use the .T attribute to obtain the transpose of matrix x.
+Print the result.
