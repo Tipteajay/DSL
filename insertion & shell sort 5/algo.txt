@@ -1,0 +1,26 @@
+Algorithm :
+
+Algorithm for Sorting and Displaying Top Five Marks:
+
+1. Initialize an empty list called `arr` to store the scores of students.
+
+2. Input the number of students (`Num`):
+ 
+3. Input scores for each student:
+   - For each student (loop from 1 to `Num`):
+  
+4. Define a function `shellSort(arr)` for shell sort:
+
+5. Define a function `insertion_sort(arr)` for insertion sort:
+  
+6. Define a function `top_five(arr)` to display the top five scores:
+   - Print "Top five scores are:".
+   - If the count of elements in `arr` is less than 5, set `start` and `stop` accordingly.
+   - For each element in the range `[start, stop, -1)`, print the score.
+
+7. Define a function `main()`:
+   - Print the menu options.
+   - Read the user's choice (`choice`) for sorting.
+   - Perform the corresponding action based on the user's choice:
+     
+8. Call `main()` to start the program.

@@ -1,0 +1,59 @@
+Output:-
+1.Enter percentage
+2.Sort
+3.Top 5
+4.Exit
+Enter your choice: 1
+how many student percentage you want to enter: 4
+Enter percentage: 34
+Enter percentage: 65
+Enter percentage: 76
+Enter percentage: 23
+Entered percentage: [34.0, 65.0, 76.0, 23.0]
+_____________________________________________
+		MENUE
+_____________________________________________
+1.Enter percentage
+2.Sort
+3.Top 5
+4.Exit
+Enter your choice: 2
+1.Insertion sort
+2.Shell sort
+Enter your choice: 1
+After insertion sort: [23.0, 34.0, 65.0, 76.0]
+_____________________________________________
+		MENUE
+_____________________________________________
+1.Enter percentage
+2.Sort
+3.Top 5
+4.Exit
+Enter your choice: 2
+1.Insertion sort
+2.Shell sort
+Enter your choice: 2
+After shell sort: [23.0, 34.0, 65.0, 76.0]
+_____________________________________________
+		MENUE
+_____________________________________________
+1.Enter percentage
+2.Sort
+3.Top 5
+4.Exit
+Enter your choice: 3
+Top 5
+76.0
+65.0
+34.0
+23.0
+76.0
+_____________________________________________
+		MENUE
+_____________________________________________
+1.Enter percentage
+2.Sort
+3.Top 5
+4.Exit
+Enter your choice: 4
+Program ended here!
