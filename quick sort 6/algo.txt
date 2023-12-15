@@ -1,0 +1,31 @@
+Algorithm :
+
+Algorithm for Managing Student Percentages:
+
+1. Define a function `input_percentage()`:
+  
+2. Define a function `print_percentage(perc)`:
+
+3. Define a function `percentage_partition(perc, start, end)` for the partition step in Quick Sort:
+   a. Choose the pivot as the first element (`perc[start]`).
+   b. Initialize `lower_bound` as `start + 1` and `upper_bound` as `end`.
+   c. Iterate until `lower_bound` is less than or equal to `upper_bound`.
+   d. Swap elements if they are out of order.
+   e. Update the positions of `lower_bound` and `upper_bound`.
+   f. Swap the pivot with the element at `upper_bound`.
+   g. Return the final position of the pivot.
+
+4. Define a function `Quick_Sort(perc, start, end)` for the Quick Sort algorithm:
+
+5. Define a function `display_top_five(perc)`:
+   a. Print the top five percentages. If there are fewer than five, print all in descending order.
+
+6. In the main part of the program:
+   a. Initialize empty lists `unsorted_percentage` and `sorted_percentage`.
+   b. Set a flag `flag` to 1.
+   c. Create a menu using a while loop.
+      1. accepting percentages, displaying percentages, performing Quick Sort, and exiting.
+      2. If the user chooses to exit, set `flag` to 0 to end the loop.
+
+7. End the program.
+

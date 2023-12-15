@@ -1,0 +1,41 @@
+Output :-
+--------------------MENU--------------------
+1. Accept the Percentage of Students
+2. Display the Percentages of Students
+3. Perform Quick Sort on the Data
+4. Exit
+Enter your choice (from 1 to 4) : 1
+Enter the number of Students : 4
+Enter the percentage of Student 1 : 65
+Enter the percentage of Student 2 : 96
+Enter the percentage of Student 3 : 85
+Enter the percentage of Student 4 : 78
+
+--------------------MENU--------------------
+1. Accept the Percentage of Students
+2. Display the Percentages of Students
+3. Perform Quick Sort on the Data
+4. Exit
+Enter your choice (from 1 to 4) : 2
+65.0
+96.0
+85.0
+78.0
+
+--------------------MENU--------------------
+1. Accept the Percentage of Students
+2. Display the Percentages of Students
+3. Perform Quick Sort on the Data
+4. Exit
+Enter your choice (from 1 to 4) : 3
+Percentages of Students after performing Quick Sort : 
+65.0
+78.0
+85.0
+96.0
+Do you want to display the Top 5 Percentages of Students (yes/no) : yes
+Top Five Percentages are : 
+96.0
+85.0
+78.0
+65.0
