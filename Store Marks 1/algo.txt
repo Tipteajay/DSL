@@ -1,0 +1,22 @@
+1. Define Functions:
+ Define a function average(listofmarks) that calculates and prints the total and average marks.
+ Define a function Maximum(listofmarks) that returns the highest mark in the list.
+ Define a function Minimum(listofmarks) that returns the lowest mark in the list.
+ Define a function absentcount(listofmarks) that counts and returns the number of students absent (marked as -999).
+ Define a function maxFrequency(listofmarks) that prints the frequency of each mark and returns the mark with the highest frequency.
+
+2. Input:
+ Initialize an empty list marksinFDS to store the marks of students.
+Get the total number of students (numberofstudents) from the user.
+Use a loop to input the marks for each student and append them to the marksinFDS list.
+
+3. Menu-Driven Program:
+Use a while loop with a flag (flag) to create a menu-driven program.
+Inside the loop:
+Display the menu with options.
+Take user input for their choice (ch).
+Implement conditional statements based on the user's choice to call the corresponding function.
+
+4.Continue or Exit:
+After each operation, ask the user if they want to continue.
+If the user chooses to continue, set the flag to 1 to repeat the loop. If they choose to exit, set the flag to 0.

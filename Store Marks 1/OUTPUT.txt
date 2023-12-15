@@ -1,0 +1,37 @@
+"""OUTPUT:
+Enter total number of students : 10
+Enter marks of student 1 : 46
+Enter marks of student 2 : 23
+Enter marks of student 3 : 45
+Enter marks of student 4 : 6
+Enter marks of student 5 : 77
+Enter marks of student 6 : 24
+Enter marks of student 7 : 56
+Enter marks of student 8 : 67
+Enter marks of student 9 : 50
+Enter marks of student 10 : 98
+
+
+--------------------MENU--------------------
+
+1. Total and Average Marks of the Class
+2. Highest and Lowest Marks in the Class
+3. Number of Students absent for the test
+4. Marks with Highest Frequency
+5. Exit
+
+Enter your Choice (from 1 to 5) :4
+Marks  |  Frequency
+46     |   1
+23     |   1
+45     |   1
+6      |   1
+77     |   1
+24     |   1
+56     |   1
+67     |   1
+50     |   1
+98     |   1
+Highest frequency is of marks 46 that is 1 
+Do you want to continue (yes/no) :no
+Thanks for using this program!"""
