@@ -1,0 +1,46 @@
+Output :-
+Enter number of students whose marks are to be displayed : 4
+Enter marks for 4 students (Press ENTER after every students marks): 
+98
+The marks of 4 students are : 
+[98]
+65
+The marks of 4 students are : 
+[98, 65]
+85
+The marks of 4 students are : 
+[98, 65, 85]
+100
+The marks of 4 students are : 
+[98, 65, 85, 100]
+
+---------------MENU---------------
+1. Selection Sort of the marks
+2. Bubble Sort of the marks
+3. Exit
+
+
+Enter your choice (from 1 to 3) : 1
+Marks of students after performing Selection Sort on the list : 
+65
+Marks of students after performing Bubble Sort on the list :
+65
+Marks of students after performing Selection Sort on the list : 
+65
+Marks of students after performing Bubble Sort on the list :
+65
+Marks of students after performing Selection Sort on the list : 
+65
+Marks of students after performing Bubble Sort on the list :
+65
+Marks of students after performing Selection Sort on the list : 
+65
+Marks of students after performing Bubble Sort on the list :
+65
+
+Do you want to display top marks from the list (yes/no) : yes
+Top 4 Marks are : 
+100
+98
+85
+65
